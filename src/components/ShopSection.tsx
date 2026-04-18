@@ -33,12 +33,14 @@ export default function ShopSection() {
   return (
     <div id="shop" className="min-h-screen text-white pt-32 pb-24 px-6 md:px-12 flex items-center">
       <div className="max-w-7xl mx-auto w-full">
-        <header className="mb-16 text-center md:text-left bg-black/80 backdrop-blur-md p-10 md:p-14 rounded-[3rem] border border-white/10 shadow-2xl inline-block">
-          <h2 className="text-5xl md:text-7xl font-black tracking-tighter mb-4 text-white drop-shadow-xl">THE COLLECTION</h2>
-          <p className="text-xl text-white font-bold tracking-wide max-w-2xl mx-auto md:mx-0">
-            Everything you need to elevate your daily ritual. Curated for purity and performance.
-          </p>
-        </header>
+        <div className="flex justify-center mb-16">
+          <header className="text-center bg-black/80 backdrop-blur-md p-10 md:p-14 rounded-[3rem] border border-white/10 shadow-2xl inline-flex flex-col items-center">
+            <h2 className="text-5xl md:text-7xl font-black tracking-tighter mb-4 text-white drop-shadow-xl">THE COLLECTION</h2>
+            <p className="text-xl text-white font-bold tracking-wide max-w-2xl mx-auto">
+              Everything you need to elevate your daily ritual. Curated for purity and performance.
+            </p>
+          </header>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {products.map((product) => (
