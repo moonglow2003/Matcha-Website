@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍵 Matcha Ecommerce Website
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+### ✨ Modern Premium Matcha Store Experience ✨
+
+A beautifully crafted ecommerce website for premium matcha lovers, built with modern frontend technologies.
+
+🌐 **Live Demo:** https://matcha-app-peach.vercel.app/
+
+</div>
+
+---
+
+## 📌 Overview
+
+Matcha Ecommerce Website is a sleek and responsive online store concept designed for showcasing premium matcha products with an elegant user experience.
+This project focuses on clean UI design, smooth interactions, responsive layouts, and modern ecommerce presentation.
+
+---
+
+## 🚀 Features
+
+✅ Beautiful Animated Landing Page
+✅ Premium Product Showcase
+✅ Responsive Design (Mobile + Desktop)
+✅ Sliding Cart Drawer
+✅ Admin Dashboard Section
+✅ Clean Navigation UI
+✅ Fast Performance
+✅ Modern Component-Based Architecture
+
+---
+
+## 🛠 Tech Stack
+
+| Technology   | Usage              |
+| ------------ | ------------------ |
+| Next.js 14   | Frontend Framework |
+| TypeScript   | Type Safety        |
+| Tailwind CSS | Styling            |
+| Prisma       | Database ORM       |
+| Vercel       | Deployment         |
+
+
+
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+ ┣ app/
+ ┣ components/
+ ┣ lib/
+public/
+prisma/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Purpose of This Project
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built to practice and demonstrate:
 
-## Learn More
+* Real-world frontend development
+* Ecommerce UI/UX design
+* Next.js project architecture
+* Responsive modern websites
+* Deployment workflow with GitHub + Vercel
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Live Website
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔗 https://matcha-app-peach.vercel.app/
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ⭐ Support
+
+If you liked this project:
+
+🌟 Star this repository
+🍴 Fork it
+📢 Share it with others
+
+---
+
+<div align="center">
+
+### 🍃 Crafted with passion and creativity
+
+</div>
