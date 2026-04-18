@@ -142,13 +142,13 @@ function ScrollIndicator({ progress }: { progress: MotionValue<number> }) {
   return (
     <motion.div 
       style={{ opacity }}
-      className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50"
+      className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 bg-black/60 backdrop-blur-md px-6 py-4 rounded-3xl border border-white/20 shadow-2xl"
     >
-      <span className="text-xs tracking-widest uppercase">Scroll to Explore</span>
+      <span className="text-sm font-black tracking-widest uppercase text-white drop-shadow-xl">Scroll to Explore</span>
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
-        className="w-[1px] h-10 bg-gradient-to-b from-white/50 to-transparent"
+        className="w-[3px] h-12 bg-gradient-to-b from-white to-transparent rounded-full shadow-lg"
       />
     </motion.div>
   );
@@ -163,10 +163,10 @@ function BeatA({ progress }: { progress: MotionValue<number> }) {
       style={{ opacity, y }}
       className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none text-center px-6"
     >
-      <h1 className="text-7xl md:text-9xl font-bold tracking-tighter text-white/90 mb-4">
+      <h1 className="text-7xl md:text-9xl font-black tracking-tighter text-white drop-shadow-2xl mb-4">
         THE MATCHA
       </h1>
-      <p className="text-xl md:text-2xl text-white/60 font-light tracking-wide max-w-lg">
+      <p className="text-xl md:text-3xl text-white font-bold tracking-wide max-w-lg mx-auto drop-shadow-xl">
         Pure energy, refined by nature.
       </p>
     </motion.div>
@@ -180,13 +180,13 @@ function BeatB({ progress }: { progress: MotionValue<number> }) {
   return (
     <motion.div 
       style={{ opacity, y }}
-      className="absolute inset-0 flex flex-col justify-center pointer-events-none px-10 md:px-32 lg:px-48"
+      className="absolute inset-0 flex flex-col justify-center pointer-events-none px-6 md:px-32 lg:px-48"
     >
       <div className="max-w-xl">
-        <h2 className="text-5xl md:text-7xl font-bold tracking-tight text-white/90 mb-4">
+        <h2 className="text-5xl md:text-7xl font-black tracking-tight text-white drop-shadow-2xl mb-4">
           ORGANIC LAYERS
         </h2>
-        <p className="text-lg md:text-xl text-white/60 font-light leading-relaxed">
+        <p className="text-xl md:text-2xl text-white font-bold leading-relaxed drop-shadow-xl">
           Sourced from shade-grown fields. Every micro-layer tells a story of meticulous cultivation.
         </p>
       </div>
@@ -201,13 +201,13 @@ function BeatC({ progress }: { progress: MotionValue<number> }) {
   return (
     <motion.div 
       style={{ opacity, y }}
-      className="absolute inset-0 flex flex-col justify-center items-end pointer-events-none px-10 md:px-32 lg:px-48 text-right"
+      className="absolute inset-0 flex flex-col justify-center items-end pointer-events-none px-6 md:px-32 lg:px-48 text-right"
     >
       <div className="max-w-xl">
-        <h2 className="text-5xl md:text-7xl font-bold tracking-tight text-white/90 mb-4">
+        <h2 className="text-5xl md:text-7xl font-black tracking-tight text-white drop-shadow-2xl mb-4">
           SLOW GROUND
         </h2>
-        <p className="text-lg md:text-xl text-white/60 font-light leading-relaxed">
+        <p className="text-xl md:text-2xl text-white font-bold leading-relaxed drop-shadow-xl">
           Milled by granite blocks to preserve maximum antioxidant potential.
         </p>
       </div>
@@ -224,10 +224,10 @@ function BeatD({ progress }: { progress: MotionValue<number> }) {
       style={{ opacity, y }}
       className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none text-center px-6"
     >
-      <h2 className="text-6xl md:text-8xl font-bold tracking-tighter text-white/90 mb-8">
+      <h2 className="text-6xl md:text-8xl font-black tracking-tighter text-white drop-shadow-2xl mb-8">
         ELEVATE YOUR RITUAL
       </h2>
-      <button className="px-8 py-4 bg-white text-[#050505] font-medium tracking-widest text-sm uppercase rounded-full hover:bg-white/90 transition-colors pointer-events-auto">
+      <button className="px-12 py-5 bg-white text-[#050505] font-black tracking-widest text-sm uppercase rounded-full hover:bg-white/90 transition-all pointer-events-auto shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)] hover:scale-105 active:scale-95 duration-200">
         Pre-order Now
       </button>
     </motion.div>
