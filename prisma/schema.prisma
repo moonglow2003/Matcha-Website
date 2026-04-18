@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model ContactInquiry {
+  id        String   @id @default(cuid())
+  firstName String
+  lastName  String
+  email     String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+model Order {
+  id              String   @id @default(cuid())
+  customerName    String
+  customerEmail   String
+  shippingAddress String
+  totalPrice      Float
+  status          String   @default("PENDING")
+  items           String   // JSON serialized array of products
+  createdAt       DateTime @default(now())
+}
