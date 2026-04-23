@@ -1,97 +1,32 @@
-# 🍵 Matcha Ecommerce Website
+# Matcha Ecommerce Website 🍵
 
-<div align="center">
-
-### ✨ Modern Premium Matcha Store Experience ✨
-
-A beautifully crafted ecommerce website for premium matcha lovers, built with modern frontend technologies.
-
-🌐 **Live Demo:** https://matcha-app-peach.vercel.app/
-
-</div>
+This is a simple ecommerce website concept I built for a premium matcha store. The idea was to create a clean and modern UI that looks minimal but still feels interactive. I mainly focused on frontend design, smooth user experience, and making the layout responsive across devices.
 
 ---
 
-## 📌 Overview
+## Overview
 
-Matcha Ecommerce Website is a sleek and responsive online store concept designed for showcasing premium matcha products with an elegant user experience.
-This project focuses on clean UI design, smooth interactions, responsive layouts, and modern ecommerce presentation.
-
----
-
-## 🚀 Features
-
-✅ Beautiful Animated Landing Page
-✅ Premium Product Showcase
-✅ Responsive Design (Mobile + Desktop)
-✅ Sliding Cart Drawer
-✅ Admin Dashboard Section
-✅ Clean Navigation UI
-✅ Fast Performance
-✅ Modern Component-Based Architecture
+The website showcases matcha products in a clean and aesthetic way. It includes a landing page, product section, cart interaction. The goal of this project was not just functionality but also how the UI feels while using it.
 
 ---
 
-## 🛠 Tech Stack
+## Features
 
-| Technology   | Usage              |
-| ------------ | ------------------ |
-| Next.js 14   | Frontend Framework |
-| TypeScript   | Type Safety        |
-| Tailwind CSS | Styling            |
-| Prisma       | Database ORM       |
-| Vercel       | Deployment         |
-
-
-
+- Landing page with simple animations  
+- Product listing section  
+- Cart drawer (slide-in)  
+- Responsive design (works on mobile and desktop)   
+- Clean and minimal navigation  
 
 ---
 
-## 📂 Project Structure
+## Tech Stack
 
-```bash
-src/
- ┣ app/
- ┣ components/
- ┣ lib/
-public/
-prisma/
-```
+- Next.js  
+- TypeScript  
+- Tailwind CSS  
+- Prisma  
+- Vercel (for deployment)  
 
 ---
 
-## 🎯 Purpose of This Project
-
-This project was built to practice and demonstrate:
-
-* Real-world frontend development
-* Ecommerce UI/UX design
-* Next.js project architecture
-* Responsive modern websites
-* Deployment workflow with GitHub + Vercel
-
----
-
-## 🌍 Live Website
-
-🔗 https://matcha-app-peach.vercel.app/
-
-
-
----
-
-## ⭐ Support
-
-If you liked this project:
-
-🌟 Star this repository
-🍴 Fork it
-📢 Share it with others
-
----
-
-<div align="center">
-
-### 🍃 Crafted with passion and creativity
-
-</div>
